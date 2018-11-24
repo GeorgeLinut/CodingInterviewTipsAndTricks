@@ -27,7 +27,7 @@ Using those observations we can see that if we xor all the elements that are giv
 we will have pairs, 1 xor 1 = 0, 2 xor 2 = 0... n xor n = 0 , the only element that will not have a pair is the missing one.  
 So the result of this operation is the missing element xor a lot of 0's but since 0 is the neutral element we are left with the answer. 
 
-Short version of the solution discussed above:
+Short version of the solution discussed above:  
 Input: a, an array of lenght n-1 with numbers in [1,n]  
 R1 = a[0] xor a[1] xor a[n-1]  
 R2 = 1 xor 2... xor n  
