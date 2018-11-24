@@ -50,3 +50,19 @@ If you want to detect a cycle use the same approach but in this case the first p
 so the first time you have both pointers at the same node you detected the cycle.(detect_list_cycle).py)
 
 The complexity for both solutions is O(N) time and O(1) memory.(we can detect a cycle with only one pointer but it will require O(N) memory).
+
+To be continued...  
+
+# Part 2: Classic solutions  
+
+    Classic Solution no. 1: Use a HashMap  
+To quote Gayle Laakmann(the author of Cracking the Coding Interview) the Hashmap should be on top of your mind whenever you are solving an interview question.
+It's the magic weapon with "almost" O(1) get and O(1) update operations.  
+
+    Classic Solution no. 2: Binary search or smth like it
+
+Problems that demand a certain numeric value with rounding error are usually a hint that binary search is involved.  
+For example find the K order root of a number N can be solved by starting with 0 and the number (or 1 if the number is less than 1).
+You just have to compare middle^K with N to see i which way you have to shift the interval and the problem is over.  
+Another exit condition can be that your interval is less than the maximum error defined in the problem.  
+Python implmentation can be find in MathRelatedProblems/KRootAprroximation.py.  
