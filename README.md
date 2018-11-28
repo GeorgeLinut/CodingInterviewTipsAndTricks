@@ -2,9 +2,7 @@
 
 Resources, solved problems and references for interview practice.
 
-# Part 1: BFS, DFS, Recursive DFS 
-
-# Part 2: Classic problems
+# Part 1: Classic problems
 
 These are the problems that you should solve before an interview.
 Knowing the best solution for these problem may give you idea for more complex prblems.
@@ -53,7 +51,7 @@ The complexity for both solutions is O(N) time and O(1) memory.(we can detect a 
 
 To be continued...  
 
-# Part 3: Classic solutions  
+# Part 2: Classic solutions  
 
     Classic Solution no. 1: Use a HashMap  
 To quote Gayle Laakmann(the author of Cracking the Coding Interview) the Hashmap should be on top of your mind whenever you are solving   an interview question.  
