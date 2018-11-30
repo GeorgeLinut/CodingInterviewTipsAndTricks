@@ -33,5 +33,18 @@ The python code for the traversals can be found in tree_traversals.py
     Mirror tree. (see the second tree figure)
   ![mirror image](mirror_tree.png)  
 
+    Test if a tree is a BST. (Binary search tree)
+
+For more details about binary search tree go to: http://www.geeksforgeeks.org/binary-search-tree-set-1-search-and-insertion/  
+At first it looks easy to check this, you just have to check if the root is between the left and the right values.  
+This solution would have problems with the tree from the next figure which is not a BST.
+
+  ![not bst image](not_bst.png)  
+  
+8 is bigger than 3 but is on the left side so to fix this, in the reccursive call  
+we will also pass two parameters to know the minimum and the maximum value allowed  
+in that part of the tree. (Python implementation can be found in check_binary_search_tree.py)
+
+
 
     
