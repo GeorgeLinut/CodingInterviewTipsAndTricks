@@ -30,5 +30,11 @@ Great Brooklyn 99 episode by the way.
 
 
 # Phone interview with Software Engineer
+For internship roles some companies have only phone interviews. (Google, Amazon, Facebook).   
+Microsoft has only one phone interview and then you receive plane tickets for the office where you will work  
+if you receive an offer after the on site interviews.  
+The first phone interview is usually pretty easy, it is designed to test basic data structures and algo skills  
+such as working with Hashmaps and strings, maybe a bfs/dfs.
+
 
 # On site interview
