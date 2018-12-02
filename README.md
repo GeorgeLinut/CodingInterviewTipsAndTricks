@@ -15,12 +15,15 @@ The first problem that we will solve is usually asked as a warm up question in t
 
     Classic Problem no. 0: You are given a list of n-1 integers and these integers are in the range of 1 to n. 
     There are no duplicates in list. One of the integers is missing in the list.  
+    
 How do you find the missing number as quickly as possible?  
 Of course you can add all the numbers in the interval and substract the sum of the given numbers and you will find the missing one.  
 But that is not very interesting so the proposed solution is using bit operations (a must read subject before an interview).  
 The operation that we will use is Xor.   
+
 Fact: If we xor a number with itself the result will be 0 as thew binary representation is identical. We also observ that 0  
 is a neutral element for the Xor operation since 0 xor 0 = 0 and 1 xor 0 = 0  
+
 Using those observations we can see that if we xor all the elements that are given with all the elements in the interval [1,n]  
 we will have pairs, 1 xor 1 = 0, 2 xor 2 = 0... n xor n = 0 , the only element that will not have a pair is the missing one.  
 So the result of this operation is the missing element xor a lot of 0's but since 0 is the neutral element we are left with the answer. 
