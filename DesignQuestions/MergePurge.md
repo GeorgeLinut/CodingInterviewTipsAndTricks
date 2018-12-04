@@ -25,8 +25,15 @@ So your answer should highlight the scenarios that merge-purge resolves:
 * Exclude certain records from your mailing.
 * Find common records acrosss lists.
 
-The classic Merge-Purge algorithm is the Sorted Neighborhood method.
+The classic Merge-Purge algorithm is the Sorted Neighborhood method.  
 
-To be continued..
+This method has 3 phases:  
+1. Create Keys: should create the most discriminationg key O(N)  
+2. Sort data: partition can also be applied to use concurrency O(N log N)  
+3. Merge O(w*N). Use sliding window technique, where the length of the window is w.  
 
+Advantages of Merge-Purge for multiple data sets:  
+* Increases efficiency, accuracy
+* Decreases the impact of typos and other human erros.
+* Saves time and resources. 
 
