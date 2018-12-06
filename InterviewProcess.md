@@ -34,7 +34,10 @@ For internship roles some companies have only phone interviews. (Google, Amazon,
 Microsoft has only one phone interview and then you receive plane tickets for the office where you will work  
 if you receive an offer after the on site interviews.  
 The first phone interview is usually pretty easy, it is designed to test basic data structures and algo skills  
-such as working with Hashmaps and strings, maybe a bfs/dfs.
+such as working with Hashmaps and strings, maybe a bfs/dfs.  
+Another important thing for the first phone interview is to be proficient in the language you have chosen. You may  
+want to show your python/java/go skills by using a language specific feature. For example do some python magic  
+in one line that would require 10 in Java.  
 
 
 # On site interview
