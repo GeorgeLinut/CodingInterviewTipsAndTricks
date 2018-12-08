@@ -46,5 +46,14 @@ we will also pass two parameters to know the minimum and the maximum value allow
 in that part of the tree. (Python implementation can be found in check_binary_search_tree.py)
 
 
+    Check if a tree is a subtree of another tree (subtree.py)
+
+If two trees have two of the pre,post,inorder traversals identical than they are equal.  
+Similarly if we compute the pre order and in order traversal of two trees and  
+(store them in array pre1, pre2, in1, in2). To check if tree2 is a subtree of tree 1 we just  
+have to see if pre2 is a subarray of pre1 and in2 a subarray of in1. Computing traversals  
+and both subarray checks are O(N) operations so the overall complexity is O(N).
+
+
 
     

@@ -41,3 +41,20 @@ in one line that would require 10 in Java. (see example in cool.py)
 
 
 # On site interview
+Questions from GlassDoor interviews. 
+* Behavioral
+
+1. Why do you choose Microsoft? Which group would you like to work in? Introduce a group project that you like most.  
+2. Describe an experience where things were not going your way and how did you overcome that.  
+
+
+* Technical
+
+1. Find the length of the longest palindrome in a string
+2. Giving an integer and return the maximum product of the  numbers which sums up to the given number.
+3. Write a program that raises x to the power of y  
+4. Knapsack problem  
+
+TBC..
+
+
