@@ -72,6 +72,8 @@ Questions from GlassDoor interviews.
 1. Design an IDE
 2. Design the touchButton function in iOS
 3. How would you design an application for blind people?  
+4. Design Twitter
+5. Design bit.ly
 
 
 
